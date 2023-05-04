@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: my_image:tag
+          image: my_image:latest
           ports:
             - containerPort: 8501
 ---
